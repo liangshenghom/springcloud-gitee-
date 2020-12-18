@@ -58,6 +58,10 @@
     <module>ribbon</module>
     <module>Hystrix</module>
     <module>turbine</module>
+    <module>zuul-demo</module>
+    <module>springboot-admin</module>
+    
+   
   </modules>
 	
 </project>
