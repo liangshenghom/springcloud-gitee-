@@ -1,0 +1,10 @@
+server:
+  port: 2001
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: eureka-client
+          uri: lb://eureka-client
+          predicates:
+          - Path=/user/*

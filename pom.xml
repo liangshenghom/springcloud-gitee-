@@ -63,6 +63,8 @@
     
    
     <module>spring-boot-admin-client</module>
+    <module>gateway</module>
+    <module>swagger</module>
   </modules>
 	
 </project>
